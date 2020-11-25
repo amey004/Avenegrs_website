@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+   }
+body
+{
+    background-color: rgb(244, 245, 187);
+}
+
+
+
+#header-nav
+{
+     background-color: #acf1b3;
+     height: 100px;
+}
+#logo-img
+{
+    background: url('../css/images/logo1.png') no-repeat;
+    height: 100px;
+    width: 87px;
+    margin: 15px;
+    margin-left: 0px;
+    
+}
+.navbar-brand h1
+{
+    margin: 20px;
+    font-family: 'Ranchers', cursive;
+    font-weight: bold;
+    font-size: 3.2vw;
+    margin-right: 0px;
+    letter-spacing: 6px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+    text-decoration: none;
+}
+.navbar-toggler-icon
+{
+    width: 130px;
+    height: 35px;
+    color: white;
+    background-color:black;
+    border-radius: 5px;
+    padding-top: 6px;
+    
+}
+
+form .btn
+{
+
+    color: black;
+    margin-top: -10px;
+    
+    background-color: rgb(77, 182, 77);
+}
+#jumbo
+{
+    height: 450px;
+    padding: auto;
+    border-radius: 5px;
+    border: solid black 2px;
+    align-content: center;
+}
+#main-content
+{
+    margin-top: 5px;
+}
+
+#ironman, #captain, #thor
+{
+    height: 250px;
+    width : 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: solid 2px black;
+    overflow: hidden;
+}
+
+#ironman:hover , #captain:hover , #thor:hover 
+{
+    box-shadow: 0px 5px 10px 5px gray;
+}
+#ironman
+{
+    background: url('../css/images/IronMan.png') no-repeat;
+    background-position: center;
+}
+#captain
+{
+    background: url('../css/images/CaptainAmerica.png') no-repeat;
+    background-position: center;
+}
+#thor
+{
+    background: url('../css/images/Thor.jpg') no-repeat;
+    background-position: center;
+}
+#ironman span,#captain span,#thor span
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.0em;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+
+}
+
+@media (min-width:992px){
+.img-responsive
+    {
+        margin-left:9vw;
+
+    }
+}
+@media (max-width:992px)
+{
+    .img-responsive
+    {
+        height: 24em;
+    }
+}
+@media (max-width:567px)
+{
+    .img-responsive
+    {
+        height: 18em;
+    }
+}
+.title
+{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.card-footer
+{ 
+    background-color: gray;
+    
+}
+.text-center
+{
+    margin-top: 15px;
+    font-weight: 500;
+    
+}
+.line
+{
+    width: 39%;
+    background: rgb(179, 0, 0);
+    margin-left: 0px;
+    float: left;
+}
+.line2
+{
+    width: 60%;
+    margin-right: 0px;
+    background: rgb(87, 109, 10);
+
+}
+@media (max-width:767px){
+    .navbar-brand h1
+    {
+        font-size: 28px;
+    }
+}
+.category-tile
+{
+    height: 200px;
+    width: 280px;
+    border: solid 2px black;
+    margin: 0 auto 15px;
+    overflow: hidden;
+}
+.category-tile:hover
+{
+    box-shadow: 0px 5px 10px 5px gray;
+}
+#descrip
+{
+    margin: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 480;
+
+}
+#cover
+{
+    margin: 30px auto 30px ;
+}
+.head:hover, .head:focus
+{
+    text-decoration: none;
+}
+.head 
+{
+    font-size: 1.8em;
+    margin: 10px;
+    color:rgb(206, 71, 71);
+    font-weight: 600;
+}
